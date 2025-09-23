@@ -36,7 +36,6 @@ console.log("Họ tên ban đầu:", hoten);
 var hotenxoakhoangtrangdaucuoi = hoten.trim();
 console.log("Họ tên sau khi xóa khoảng trắng:", hotenxoakhoangtrangdaucuoi);
 
-
 var inrasoluongtu = hoten.length;
 console.log("Số lượng từ trong họ tên:", inrasoluongtu);
 
