@@ -36,8 +36,6 @@ console.log("Họ tên ban đầu:", hoten);
 var hotenxoakhoangtrangdaucuoi = hoten.trim();
 console.log("Họ tên sau khi xóa khoảng trắng:", hotenxoakhoangtrangdaucuoi);
 
-var viethoachucaidau = hoten.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ")
-console.log("Họ tên sau khi viết hoa chữ cái đầu:", viethoachucaidau);
 
 var inrasoluongtu = hoten.length;
 console.log("Số lượng từ trong họ tên:", inrasoluongtu);
